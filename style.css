@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 50px;
+    padding: 10px;
+    background-color: #CAF4FF;
+  }
+
+  h1 { font-family:  "Poetsen One", sans-serif;}
+  h1 span { color: red;}
+  p { 
+    margin-left: 0;
+    padding-right: 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+header img {
+    position: absolute;
+    top: 18%;
+    left:39%;
+}
+
+  .content {
+    height: 1000px;
+  }
+  
+  .navigation {
+    list-style-type: none;
+    margin: 5px;
+    padding: 10px;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 40px;
+    z-index: 999;
+    background-color: burlywood;
+    border-radius: 30px;
+  }
+  
+  .navigation li {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .navigation li a {
+    display: block;
+    color:black ;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    transition: transform 0.3s, background-color 0.3s;
+    border-radius: 50px;
+    background-color: #fff;
+  }
+  
+  .navigation li a:hover {
+    transform: translateY(-5px);
+    background-color: #ff00ff;
+  }
+
+  ul li { font-family:  "Poetsen One", sans-serif;}
+
+  section h1 { text-align: center;}
+
+section img {
+    border-radius: 30px;
+    padding: 10px;
+}
+
+section ul li {
+    display: inline;
+    position: relative;
+    left: 576px;
+    margin: 30px;
+}
+
+footer {
+    background-color: burlywood;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
